@@ -11,6 +11,7 @@
 
   <body>
     <div class="page">
+      <!-- CABEÇALHO -->
       <header class="header">
         <nav class="nav">
           <img
@@ -27,10 +28,10 @@
               <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a class="nav__link">Seja um membro</a>
+              <a class="nav__link" href="#membership">Seja um membro</a>
             </li>
             <li>
-              <a class="nav__link">Contatos</a>
+              <a class="nav__link" href="#footer">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -60,6 +61,7 @@
       </header>
 
       <main class="content">
+        <!-- ESCOLHAS DA EQUIPE -->
         <section class="staff" id="staff">
           <h2 class="staff__title">Escolhas da Equipe</h2>
 
@@ -145,6 +147,7 @@
           </ul>
         </section>
 
+        <!-- EVENTOS -->
         <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
@@ -157,7 +160,7 @@
               <div class="event-info__item">
                 <img
                   src="./images/icon_calendar.svg"
-                  alt="Calendar icon"
+                  alt="Ícone de calendário"
                   class="event-info__icon"
                 />
 
@@ -167,38 +170,41 @@
               <div class="event-info__item">
                 <img
                   src="./images/icon_pin.svg"
-                  alt="Pin icon"
+                  alt="Ícone de localização"
                   class="event-info__icon"
                 />
 
                 <p class="event-info__text">
-                  Sala de Conferências da Biblioteca Triple Peaks e Online
+                  Sala de Conferências da Biblioteca Triple Peaks
                 </p>
               </div>
             </div>
 
             <p class="events__description">
-              Neste evento, que homenageia a pessoa que inspirou o nome da
-              biblioteca, vamos ter uma palestra que vai nos levar para uma
-              jornada explorando alguns das pesquisadoras mais proeminentes no
-              mundo da ciência espacial. É fácil aceitar o equívoco de que esse
-              campo era em sua maioria dominado por homens, mas nossa palestra
-              visa mudar essa noção e provar que esse não é o caso desde, pelo
-              menos, o século XVIII.
+              Nesse evento, que homenageia o homônimo da biblioteca, nossa
+              palestrante convidada nos levará a uma jornada explorando algumas
+              das mais proeminentes pesquisadoras do mundo da ciência espacial.
+              É fácil acreditar na ideia equivocada de que esse campo era
+              dominado principalmente por homens, mas nossa palestra tem como
+              objetivo mudar essa visão e provar que isso não acontece desde
+              pelo menos o século XVIII.
             </p>
 
             <a href="#" class="events__more">Mais eventos &rarr;</a>
           </div>
 
+          <!-- COMPOSIÇÃO DAS PESQUISADORAS -->
           <div class="events__cover">
             <img
               src="./images/cafe.png"
-              alt="Interior do café da biblioteca"
+              alt="Ilustração do interior da biblioteca"
               class="events__image"
             />
 
+            <!-- JOAN FEYNMAN -->
             <div class="person person_name_feynman">
               <p class="person__caption">Joan Feynman</p>
+
               <img
                 src="./images/person_feynman.png"
                 alt="Joan Feynman"
@@ -206,8 +212,10 @@
               />
             </div>
 
+            <!-- JILL TARTER -->
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
+
               <img
                 src="./images/person_tarter.png"
                 alt="Jill Tarter"
@@ -215,8 +223,10 @@
               />
             </div>
 
+            <!-- MARGARET BURBIDGE -->
             <div class="person person_name_burbidge">
               <p class="person__caption">Margaret Burbidge</p>
+
               <img
                 src="./images/person_burbidge.png"
                 alt="Margaret Burbidge"
@@ -224,26 +234,147 @@
               />
             </div>
 
+            <!-- MARIA MITCHELL -->
             <div class="person person_name_mitchell">
               <img
                 src="./images/person_mitchell.png"
                 alt="Maria Mitchell"
                 class="person__image person__image_size_s"
               />
+
               <p class="person__caption">Maria Mitchell</p>
             </div>
 
+            <!-- ANNIE JUMP CANNON -->
             <div class="person person_name_cannon">
               <img
                 src="./images/person_cannon.png"
                 alt="Annie Jump Cannon"
                 class="person__image person__image_size_m"
               />
+
               <p class="person__caption">Annie Jump Cannon</p>
             </div>
           </div>
         </section>
+
+        <!-- SEJA UM MEMBRO -->
+        <section class="membership" id="membership">
+          <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
+
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Passo 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Próximo passo"
+                  class="step__icon"
+                />
+              </h3>
+
+              <p class="step__description">
+                Preencha o formulário de filiação online.
+              </p>
+            </li>
+
+            <li class="step">
+              <h3 class="step__title">
+                Passo 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Próximo passo"
+                  class="step__icon"
+                />
+              </h3>
+
+              <p class="step__description">
+                Venha retirar seu cartão da biblioteca na recepção.
+              </p>
+            </li>
+
+            <li class="step">
+              <h3 class="step__title">
+                Passo 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="Próximo passo"
+                  class="step__icon"
+                />
+              </h3>
+
+              <p class="step__description">Assine o verso do cartão.</p>
+            </li>
+
+            <li class="step">
+              <h3 class="step__title">
+                Passo 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="Etapa final"
+                  class="step__icon"
+                />
+              </h3>
+
+              <p class="step__description">
+                Aproveite todos os incríveis benefícios de ser membro!
+              </p>
+            </li>
+          </ul>
+        </section>
       </main>
+
+      <!-- RODAPÉ -->
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Logotipo da Biblioteca Triple Peaks"
+              class="footer__logo"
+            />
+          </div>
+
+          <div class="footer__column footer__column_content_hours">
+            <h4 class="footer__column-heading">Horário de Funcionamento</h4>
+
+            <ul class="footer__list">
+              <li class="footer__list-item">Dias úteis: 9h - 20h</li>
+              <li class="footer__list-item">Finais de semana: 10h às 18h</li>
+            </ul>
+          </div>
+
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Redes Sociais</h4>
+
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Ícone do Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Ícone do Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">© 2026 Pedro Souza</p>
+      </footer>
     </div>
   </body>
 </html>
